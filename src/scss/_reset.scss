@@ -7,8 +7,13 @@
 
 %font-reset{
     font-family: 'Playfair Display', 'sans-serif';
+
+    p, button, small {
+        font-family: 'Open Sans', 'sans-serif';
+    }
 }
 
 %lineheight-reset{
     margin-top: 1lh;
 }
+
