@@ -19,5 +19,3 @@
 - continue with (facebook, google)
 - sign in
 - signup
-
-# logo
