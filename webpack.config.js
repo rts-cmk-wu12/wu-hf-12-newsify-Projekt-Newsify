@@ -40,7 +40,13 @@ module: {
   plugins: [
    new HtmlWebpackPlugin({
     template:'./src/index.html'
-   })
+   }),
+   new HtmlWebpackPlugin({
+    template: './src/auth.html',
+    filename: 'auth.html',
+    chunks: ["auth"],
+    scriptLoading: "module"
+  }),
   ]
  
 };

@@ -3,6 +3,7 @@ require('./images/newsifylogobig.png');
 require('./images/newsifyphone.png')
 require('./images/newsifyphonesettings.png')
 require('./images/newsifyphonetwo.png')
+require('./images/newsifylogosmall.png')
 //Splash screen
 
 document.addEventListener("DOMContentLoaded", () => {
