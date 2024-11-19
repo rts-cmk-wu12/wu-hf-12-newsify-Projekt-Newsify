@@ -54,9 +54,6 @@ body {
 }
 
 //onboarding
-#onboarding-1{
-    display: none;
-}
 
 .onboarding__section {
     display: grid;
@@ -137,10 +134,14 @@ body {
 
 // second onboarding page
 
+.onboarding-screen.active {
+    display: block;
+}
+
 .onboarding-screen {
     display: none;
 }
- 
-.onboarding-screen.active {
-    display: block;
+
+#onboarding-1{
+    display: none;
 }
