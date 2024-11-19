@@ -1,0 +1,20 @@
+@use '../placeholders/variables.scss';
+%button {
+  background: variables.$secondary-color-cactus;
+  width: 50%;
+  height: 4rem;
+  font-size: 1.125rem;
+  border: 1px solid variables.$secondary-color-cactus;
+  color: white;
+  border-radius: 2rem;
+  
+}
+
+%button--transparrent {
+  background: transparent;
+  width: 50%;
+  height: 4rem;
+  font-size: 1.125rem;
+  color: variables.$secondary-color-cactus;
+  border-radius: 2rem;
+}
