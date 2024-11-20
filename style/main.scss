@@ -119,6 +119,13 @@ body {
     color: $primary-color;
     font-family: 'Open Sans';
     font-size: 18px;
+    place-content: center;
+    text-align: center;
+}
+
+.onboarding__skip-link{
+    cursor: default;
+    text-decoration: none;
 }
 
 .onboarding__continue {
