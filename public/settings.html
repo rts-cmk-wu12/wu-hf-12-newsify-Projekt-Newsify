@@ -15,12 +15,43 @@
     </header>
 
     <main>
-        <div class="settings">
+        <section class="settings">
             <h2 class="settings__heading">Settings</h2>
             <p class="settings__subheading">Cetegories</p>
+        </section>
+
+        <div class="toggle">
+            <div class="toggle__element">
+                <div class="toggle__header">
+                    <img class="toggle__logo" src="./images/newsify_logo.svg" alt="logo">
+                    <h3 class="toggle__name">Category name</h3>
+                </div>
+
+                <label class="toggle__switch">
+                    <input class="toggle__checkbox" type="checkbox">
+                    <span class="toggle__slider"></span>
+                </label>
+            </div>
+            <div class="toggle__element">
+                <div class="toggle__header">
+                    <img class="toggle__logo" src="./images/newsify_logo.svg" alt="logo">
+                    <h3>Category name</h3>
+                </div>
+
+                <label class="toggle__switch">
+                    <input class="toggle__checkbox" type="checkbox">
+                    <span class="toggle__slider"></span>
+                </label>
+            </div>
+            
+        </div>
+
+
+        <div class="toggle__darkmode">
+            <button class="toggle__darkmode-button" id="toggle__darkmode">Toggle Dark Mode</button>
+            <small>Version 4.8.15.16.23.42</small>
         </div>
         
-
     </main>
 
     <footer class="footer">
