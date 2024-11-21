@@ -120,13 +120,13 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/login.js":
-/*!**********************!*\
-  !*** ./src/login.js ***!
-  \**********************/
+/***/ "./src/archive.js":
+/*!************************!*\
+  !*** ./src/archive.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\n\n//# sourceURL=webpack://newsify-milorxn/./src/login.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\n\n//# sourceURL=webpack://newsify-milorxn/./src/archive.js?");
 
 /***/ }),
 
@@ -253,7 +253,7 @@ eval("module.exports = __webpack_require__.p + \"04c3f35b0ae4f8f76920.svg\";\n\n
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"login": 0
+/******/ 			"archive": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -281,7 +281,7 @@ eval("module.exports = __webpack_require__.p + \"04c3f35b0ae4f8f76920.svg\";\n\n
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/login.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/archive.js");
 /******/ 	
 /******/ })()
 ;

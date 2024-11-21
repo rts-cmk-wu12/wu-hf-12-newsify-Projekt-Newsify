@@ -1,3 +1,4 @@
+@use '../placeholders/variables.scss';
 %basic-reset{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 
 %font-reset{
     font-family: 'Playfair Display', 'sans-serif';
+    color: variables.$typography-color-onyx;
 
     p, button, small {
         font-family: 'Open Sans', 'sans-serif';

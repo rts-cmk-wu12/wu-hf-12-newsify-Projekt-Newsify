@@ -7,7 +7,6 @@
   border: 1px solid variables.$secondary-color-cactus;
   color: white;
   border-radius: 2rem;
-  
 }
 
 %button--transparrent {
@@ -17,4 +16,18 @@
   font-size: 1.125rem;
   color: variables.$secondary-color-cactus;
   border-radius: 2rem;
+}
+
+%button--socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 4rem;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: variables.$typography-color-onyx;
+  border: 1px solid variables.$secondary-color-gray;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
 }
