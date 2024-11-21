@@ -2,10 +2,15 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path")
 module.exports={
 mode: "production",
-entry: "./src/index.js",
+entry: {
+  bundle: "./src/index.js",
+  auth: "./src/auth.js",
+  home: "./src/home.js",
+  display: "./src/display.js"
+},
 output:{
   path: path.resolve(__dirname, "dist"),
-  filename: "bundle.js",
+  filename: "[name].js",
   
 },
 //dette er alle tilføjelserne
@@ -45,6 +50,12 @@ module: {
     template: './src/auth.html',
     filename: 'auth.html',
     chunks: ["auth"],
+    scriptLoading: "module"
+  }),
+  new HtmlWebpackPlugin({
+    template: './src/home.html',
+    filename: 'home.html',
+    chunks: ["home"],
     scriptLoading: "module"
   }),
   ]
