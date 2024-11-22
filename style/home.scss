@@ -54,6 +54,13 @@ input::placeholder{
 
 // articles
 
+.newsArticle{
+ 
+    &--displayNone{
+        display: none;
+    }
+}
+
 .newsArticleBox {
     padding: 1.5rem;
 }
