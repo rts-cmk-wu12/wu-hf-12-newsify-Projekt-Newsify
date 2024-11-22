@@ -39,6 +39,7 @@ $searchbar-color: #D9D9D9;
 
 .search__bar{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 345px;
     height: 46px;
     border-style: none;
@@ -58,9 +59,9 @@ input::placeholder{
 
 // articles
 
-.newsArticleBox {
-    padding: 1.5rem;
-}
+// .newsArticleBox {
+
+// }
 
 .newsArticleBox__headingbox{
     display: flex;
@@ -69,7 +70,6 @@ input::placeholder{
     border-top: solid $indicator-color;
     border-bottom: solid $indicator-color;
     place-items: center;
-    margin-bottom: 1rem;
 }
 .newsArticleBox__heading{
     font-family: 'Playfair display';
@@ -115,4 +115,33 @@ p{
     &--displayNone{
         display: none;
     }
+}
+
+//footer
+
+.footer__home{
+    width: 393px;
+    height: 90px;
+    margin-top: 2rem;
+}
+
+.links__home{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: $text-color;
+}
+
+.footer-link__active{
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.fa-house{
+    color: $primary-color;
 }
