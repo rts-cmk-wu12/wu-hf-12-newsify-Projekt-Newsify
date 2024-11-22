@@ -52,3 +52,57 @@ input::placeholder{
     font-size: 14px;
 }
 
+// articles
+
+.newsArticleBox {
+    padding: 1.5rem;
+}
+
+.newsArticleBox__headingbox{
+    display: flex;
+    gap: 1rem;
+    height: 60px;
+    border-top: solid $indicator-color;
+    border-bottom: solid $indicator-color;
+    place-items: center;
+    margin-bottom: 1rem;
+}
+.newsArticleBox__heading{
+    font-family: 'Playfair display';
+    font-size: 16px;
+    color: $text-color;
+}
+
+.newsArticleBox__image{
+    width: 18px;
+    height: 26px;
+}
+
+.news-image{
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+.newsArticleBox__arrow{
+    display: grid;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    height: 72px;
+    gap: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 13px;
+    font-family: 'Playfair display';  
+}
+
+p{
+    font-size: 10px;
+    font-family: 'Open sans';
+}

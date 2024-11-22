@@ -86,3 +86,5 @@ function dropNewsDown(){
 function openArticle(){
     this
 }
+
+// Credit: Benjamin Jasek Smith
