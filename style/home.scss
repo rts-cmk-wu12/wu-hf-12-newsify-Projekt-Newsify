@@ -59,9 +59,10 @@ input::placeholder{
 
 // articles
 
-// .newsArticleBox {
-
-// }
+.article__container{
+    width: 393px;
+    position: absolute;
+}
 
 .newsArticleBox__headingbox{
     display: flex;
@@ -122,7 +123,11 @@ p{
 .footer__home{
     width: 393px;
     height: 90px;
-    margin-top: 2rem;
+    position: fixed;
+    background-color: white;
+    top: 90%;
+    place-content: center;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.095)
 }
 
 .links__home{
