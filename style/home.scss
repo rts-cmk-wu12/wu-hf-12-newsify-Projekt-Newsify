@@ -54,13 +54,6 @@ input::placeholder{
 
 // articles
 
-.newsArticle{
- 
-    &--displayNone{
-        display: none;
-    }
-}
-
 .newsArticleBox {
     padding: 1.5rem;
 }
@@ -112,4 +105,10 @@ h3{
 p{
     font-size: 10px;
     font-family: 'Open sans';
+}
+.newsArticle{
+ 
+    &--displayNone{
+        display: none;
+    }
 }
