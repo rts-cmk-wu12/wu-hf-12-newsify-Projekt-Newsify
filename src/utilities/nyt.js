@@ -16,5 +16,16 @@ async function fetchMostPopularByViews(days = 1) {
     return data
 }
 
+async function fetchHomeTopStories(section = 'home') {
+    const url = new URL(`${section}.json`, BASE_URL + endpoints.homeTopStories);
+    url.searchParams.set('api-key', API_KEY);
+    const rensponse = await fetch(url);
+    const data = await rensponse.json();
 
-module.exports = { fetchMostPopularByViews };
+    return data
+}
+
+module.exports = {
+    fetchMostPopularByViews,
+    fetchHomeTopStories
+}
